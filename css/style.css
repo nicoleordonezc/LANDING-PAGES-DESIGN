@@ -2,5 +2,61 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;}
+
+main{
+    background: var(--color-3);
+}
+.header__top{
+
+}
+.article__top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 122px;
+}
+.div__top{
+    width: 526px;
+    height: auto;
+}
+.article__top h1{
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    color: var(--color-2);
+}
+.div__top p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-1);
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.div__top a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-3);
+    text-decoration: none;
+    width: 157px;
+    height: 50px;;
+    background: var(--color-2);
+    border-radius: 16px;
+}
+.section__bottom{
+
+}
+.div__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+    margin-bottom: 46px;
+}
+.div__bottom img{
+    width:1200px;
 }
