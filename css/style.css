@@ -48,6 +48,7 @@ main{
     margin-bottom: 64px;
 }
 .section__photos{
+    padding-left: 64px;
 }
 .div__top{
     display: flex;
@@ -55,16 +56,17 @@ main{
     gap: 16px;
 }
 .div__top img{
-    width: 316px;
-    height: 288px;
+    width: 296px;
+    height: 268px;
 }
 .div__bottom{
     display: flex;
     gap: 16px;
+    width: 1312px;
     padding-top: 16px;
     padding-bottom: 64px;
 }
 .div__bottom img{
-    width: 316px;
-    height: 288px;
+    width: 296px;
+    height: 268px;
 }
