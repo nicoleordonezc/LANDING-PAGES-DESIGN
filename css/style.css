@@ -3,4 +3,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: var(--color-4);
+}
+.header__title{
+    display: flex;
+    justify-content: flex-start;
+    width: 833px;
+    margin-left: 64px;
+    margin-top: 64px;
+}
+.header__title h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    color: var(--color-1);
+    line-height: 88px;
+}
+main{
+
+}
+.section__container{
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    gap: 16px;
+}
+.article__box-1{
+    width: 316px;
+    height: 559px;
+}
+.div__top{
+
+}
+.div__top h2{
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-3);
+}
+.div__top p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.div__center{
+
+}
+.div__center img{
+    
+}
+.div__bottom{
+    position: relative;
+    left: 24px;
+    bottom: 113px;
+    background: transparent;
+}
+.div__bottom h3{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    background: transparent;
+  
+}
+.div__bottom p{
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-1);
+    width: 213px;
+    background: transparent;
 }
