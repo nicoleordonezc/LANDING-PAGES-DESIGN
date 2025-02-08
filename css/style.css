@@ -16,6 +16,7 @@ main{
     justify-content: space-evenly;
     position: relative;
     top: 122px;
+    gap: 113px;
 }
 .div__top{
     width: 526px;
@@ -23,8 +24,9 @@ main{
 }
 .article__top h1{
     font-family: "Avenir-Heavy";
-    font-size: 88px;
+    font-size: 76px;
     color: var(--color-2);
+    padding-left: 64px;
 }
 .div__top p{
     font-family: "Avenir-Roman";
