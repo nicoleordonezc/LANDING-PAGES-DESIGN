@@ -53,10 +53,15 @@ main{
     
 }
 .div__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    left: 24px;
-    bottom: 113px;
-    background: transparent;
+    bottom: 150px;
+    height: 147px;
+    padding-left: 24px;
+    border-radius: 0 0 24px 24px;
+    background: linear-gradient( #00000000, #00000058 49%);
 }
 .div__bottom h3{
     font-family: "Avenir-Roman";
@@ -71,4 +76,14 @@ main{
     color: var(--color-1);
     width: 213px;
     background: transparent;
+}
+.article__box-2{
+    width: 316px;
+    height: 559px;
+}.article__box-3{
+    width: 316px;
+    height: 559px;
+}.article__box-4{
+    width: 316px;
+    height: 559px;
 }
