@@ -4,3 +4,142 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header__container{
+    display: flex;
+    flex-direction: row;
+}
+.div__container{
+    width: 637px;
+    height: 414px;
+    padding-left: 65px;
+    padding-top: 144.33px;
+}
+.div__container h1{
+    font-family: "Avenir-Heavy";
+    font-size: 72px;
+    line-height: 88px;
+    color: var(--color-2);
+}
+.div__container p{
+    width: 586px;
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-5);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.div__container a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 182px;
+    height: 66px;
+    background: var(--color-2);
+    border-radius: 36px;
+}
+.article__rectangle{
+    width: 547.67px;
+    height: 518.66px;
+    margin-left: 126px;
+    margin-top: 92px;
+    margin-right: 64.33px;
+}
+.div__rectangle-1{
+}
+.div__rectangle-1 img{
+    position: absolute;
+    width: 322.67px;
+}
+.div__rectangle-2{
+
+}
+.div__rectangle-2 img{
+    position: absolute;
+    width: 322.67px;
+    right: 127px;
+    top: 227px;
+}
+.section__container{
+    width: 1312px;
+    background: var(--color-2);
+    border-radius: 40px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 59.34px;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+.article__cloud{
+    width: 1184px;
+    padding: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/******************** box 1 ************************/
+.div__box-1{
+    width: 316px;
+}
+.div__box-1 img{
+    width: 24px;
+    height: 16px;
+}
+.div__box-1 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-3);
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.div__box-1 p{
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-1);
+}
+/******************** box 2 ************************/
+
+.div__box-2{
+    width: 316px;
+}
+.div__box-2 img{
+    width: 24px;
+    height: 16px;
+}
+.div__box-2 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-3);
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.div__box-2 p{
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-1);
+}
+/******************** box 3 ************************/
+
+.div__box-3{
+    width: 316px;
+}
+.div__box-3 img{
+    width: 24px;
+    height: 16px;
+}
+.div__box-3 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-3);
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+.div__box-3 p{
+    font-family: "Avenir-Book";
+    font-size: 24px;
+    color: var(--color-1);
+}
