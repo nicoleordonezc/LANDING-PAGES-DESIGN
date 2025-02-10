@@ -10,7 +10,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 1440px;
 }
 main{
     background: var(--color-3);
@@ -20,19 +19,22 @@ main{
 .section__top-left{
     display: flex;
     flex-direction: row;
+    gap: 17px;
+    justify-content: center;
+    width: 100%;
 }
+
 .article__top-left{
-    position: absolute;
     width: 444px;
     height: 473px;
-    top: 137px;
-    left: 50px;
+    padding-top: 137px;
 }
 .article__top-left h1{
     font-family: "Avenir-Heavy";
     font-size: 56px;
     color: var(--color-2);
     line-height: 80px;
+    width: 444px;
 }
 .article__top-left p{
     width: 386px;
@@ -57,59 +59,73 @@ main{
     border-radius: 16px;
 }
 .article__top-right{
-    position: relative;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    left: 490px;
+    gap: 35px;
 }
 .div__top-right{
+    padding-top: 65px;
 
 }
 .div__top-right img{
-    position: relative;
-    width: 358px;
-    height: 430px;
-    top: 65px;
+    width: 408px;
+    height: 480px;
 }
 .div__top-right-2{
+    padding-top: 217px;
     
 }
 .div__top-right-2 img{
-    position: relative;
-    width: 358px;
-    height: 430px;
-    top: 217px;
+    width: 408px;
+    height: 480px;
 }
 .section__bottom{
-
-}
-.div__number{
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 64px;
-    top: 290px;
-    gap: 30px;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 73.84px;
+    margin-bottom: 63px;
 }
-.div__number h2{
+.div__01{
+ 
+}
+
+.div__01 h2{
     width: 368px;
     font-family: "Avenir-Heavy";
     font-size: 40px;
     color: var(--color-1);
     
 }
-.div__carrusel{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    top: 295px;
+.div__01 img{
+    width: 412px;
+    height: 379.16px;
     
 }
-.div__carrusel img{
-    width: 362px;
-    height: 329px;
-    margin-bottom: 63px;
+/************ box 2 ******************/
+.div__02 h2{
+    width: 368px;
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-1);
+    
+}
+.div__02 img{
+    width: 412px;
+    height: 379.16px;
+    
+}
+/************ box 3 ******************/
+.div__03 h2{
+    width: 368px;
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-1);
+    
+}
+.div__03 img{
+    width: 412px;
+    height: 379.16px;
+    
 }
