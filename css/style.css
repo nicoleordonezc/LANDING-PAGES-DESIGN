@@ -20,45 +20,82 @@ main{
 }
 .section__box{
     padding-top: 69px;
-}
-.div__number{
     display: flex;
     flex-direction: row;
-    padding-left: 64px;
-    gap: 10px;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-right: 64px;
+    gap: 56px;
 }
-.div__number h2{
-    width: 390px;
+/****************** box 1 ********************/
+.div__01{
+    width: 400px;
+   
+}
+.div__01 h2{
     font-family: "Avenir-Heavy";
     font-size: 32px;
     color: var(--color-4);
 }
-.div__description{
-    display: flex;
-    flex-direction: row;
-    gap: 56px;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-top: 4px;
-    padding-bottom: 24px;
-}
-.div__description p{
-    width: 390px;
+.div__01 p{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Avenir-Roman";
-    font-size: 21px;
+    font-size: 24px;
     color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
 }
-.div__photo{
+.div__01 img{
+    width: 400px;
+    height: 345px;
+}
+/**************** box 2 *****************/
+.div__02{
+    width: 400px;
+   
+}
+.div__02 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__02 p{
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding-left: 64px;
-    padding-right: 64px;
-    padding-bottom: 64px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
 }
-.div__photo img{
-    width: 370px;
+.div__02 img{
+    width: 400px;
+    height: 345px;
+}
+/**************** box 3 *****************/
+.div__03{
+    width: 400px;
+   
+}
+.div__03 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__03 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
+}
+.div__03 img{
+    width: 400px;
+    height: 345px;
 }
