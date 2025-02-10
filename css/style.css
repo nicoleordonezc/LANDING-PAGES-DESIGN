@@ -56,8 +56,8 @@ main{
     gap: 16px;
 }
 .div__top img{
-    width: 296px;
-    height: 268px;
+    width: 316px;
+    height: 288px;
 }
 .div__bottom{
     display: flex;
@@ -67,6 +67,6 @@ main{
     padding-bottom: 64px;
 }
 .div__bottom img{
-    width: 296px;
-    height: 268px;
+    width: 316px;
+    height: 288px;
 }
