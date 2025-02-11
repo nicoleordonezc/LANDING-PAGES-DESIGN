@@ -4,3 +4,139 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 74.31px;
+}
+.section__left {
+    padding-left: 64px;
+    padding-bottom: 64px;
+    padding-top: 88px;
+}
+.div__text {
+    width: 356px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__text h1{
+    font-family: "Times-Regular";
+    font-size: 64px;
+    font-weight: 100;
+    color: var(--color-3);
+    line-height: 80px;
+    width: 280px;
+
+}
+.div__text p{
+    font-family: "Times-Regular";
+    font-size: 23px;
+    line-height: 28px;
+    color: var(--color-3);
+}
+.div__text a{
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 177px;
+    height: 66px;;
+    background: var(--color-5);
+    border-radius: 36px;
+}
+.div__box-1 {
+    display: flex;
+    padding-top: 25.39px;
+    gap: 21.69px;
+}
+.div__box-1 img{
+    width: 176px;
+    height: 298px;
+}
+.div__frame{
+    padding-top: 91.60px;
+}
+.section__center {
+}
+/***************** right *****************/
+.section__right {
+    padding-top: 66px;
+    padding-right: 64px;
+    padding-bottom: 64px;
+    width: 392px;
+    height: 894px;
+}
+.div__box-2 {
+    display: flex;
+    gap: 24px;
+    width: 392px;
+    height: 421px;
+}
+.div__top-frame {
+    padding-bottom: 146px;
+
+}
+.div__top-frame img{
+    width: 184px;
+    height: 316px;
+}
+.div__top-frame-2 {
+    padding-top: 105px;
+}
+.div__top-frame-2 img{
+    width: 184px;
+    height: 316px;
+}
+.div__text-right {
+    width: 280px;
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+.div__text-right p{
+    font-family: "Times-Regular";
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--color-3);
+}
+.div__text-right h1{
+    font-family: "Times-Regular";
+    font-size: 64px;
+    font-weight: 100;
+    color: var(--color-3);
+    line-height: 84px;
+}
+
+.section__center {
+}
+.div__center-frame {
+    padding-top: 180px;
+}
+.div__center-frame img{
+}
+.div__first-star{
+    position: relative;
+    right: 75px;
+    bottom: 730px;
+    width: 80px;
+    height: 80px;
+}
+.div__first-star img{
+}
+.div__second-star{
+    position: relative;
+    left: 550px;
+    bottom: 550px;
+    width: 80px;
+    height: 80px;
+}
+.div__second-star img{
+
+}
