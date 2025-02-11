@@ -4,3 +4,209 @@
     padding: 0;
     box-sizing: border-box;
 }
+.section__back {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(175deg, #081e28, #043E49);
+}
+.div__ai {
+
+}
+.div__ai img{
+    width: 1024px;
+    height: 1024px;
+}
+/***************** container ********************/
+.section__container{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.article__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 193px;
+    left: 64px;
+    width: 724px;
+    height: 518px;
+    background: linear-gradient(125deg, #09212C, hsla(0, 0%, 0%, 0.100));
+    border-radius: 24px;
+    backdrop-filter: blur(3px);
+    padding-left: 56px;
+    padding-bottom: 40px;
+}
+.div__colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+.div__yellow {
+    width: 16px;
+    height: 16px;
+    background: var(--color-7);
+}
+.div__light-blue {
+    width: 16px;
+    height: 16px;
+    background: var(--color-4);
+}
+.div__green {
+    width: 16px;
+    height: 16px;
+    background: var(--color-5);
+}
+.div__orange {
+    width: 16px;
+    height: 16px;
+    background: var(--color-6);
+}
+.div__dark-blue {
+    width: 16px;
+    height: 16px;
+    background: var(--color-3);
+}
+.div__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 438px;
+    
+}
+.div__box h1{
+    font-family: "Avenir-Heavy";
+    font-size: 64px;
+    color: var(--color-1); 
+    line-height: 72px;
+    width: 570px;
+}
+.div__box p{
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    color: var(--color-1);
+    width: 586px; 
+}
+.div__box a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 182px;
+    height: 66px;;
+    background: var(--color-4);
+    border-radius: 36px;
+}
+.article__bottom {
+    position: absolute;
+    left: 64px;
+    top: 800px;
+    width: 1312px;
+    height: 171px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, hsla(0, 0%, 0%, 0.300), hsla(0, 0%, 0%, 0));
+    border-radius: 32px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid var(--color-1);
+    backdrop-filter: blur(3px);
+}
+/***************** box 1*******************/
+.div__box-1 {
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__box-1 img{
+    width: 24px;
+    height: 24px;
+}
+.div__box-1 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+.div__box-1 p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+/***************** box 2*******************/
+.div__box-2 {
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__box-2 img{
+    width: 24px;
+    height: 24px;
+}
+.div__box-2 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+.div__box-2 p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+/***************** box 3*******************/
+.div__box-3 {
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__box-3 img{
+    width: 24px;
+    height: 24px;
+}
+.div__box-3 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+.div__box-3 p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+/***************** box 4*******************/
+.div__box-4 {
+    width: 231px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__box-4 img{
+    width: 24px;
+    height: 24px;
+}
+.div__box-4 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 18px;
+    color: var(--color-1); 
+}
+.div__box-4 p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-1); 
+}
