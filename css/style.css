@@ -4,3 +4,102 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main {
+}
+.header__top {
+    background-image: url(../storage/img/Hero-21.png);
+    height: 1012px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div__top{
+    width: 637px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__top h1{
+    font-family: "Lato-Bold";
+    font-size: 96px;
+    color: var(--color-1);
+}
+.div__top p{
+    font-family: "Lato-Regular";
+    font-size: 26px;
+    color: var(--color-1);
+    text-align: center;
+    width: 549px;
+}
+.div__top a{
+    font-family: "Lato-Medium";
+    font-size: 24px;
+    color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 175px;
+    height: 66px;;
+    background: var(--color-1);
+    border-radius: 36px;
+}
+.section__bottom {
+    display: flex;
+    flex-direction: row;
+}
+.div__box {
+    background-image: url(../storage/img/left-21.png);
+    width: 480px;
+    height: 524px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.div__caja{
+    background: linear-gradient(hsla(0, 0%, 0%, 0), #000000);
+    width: 480px;
+    height:174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div__text{
+    width: 316px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.div__text h2{
+    width: 316px;
+    font-family: "Lato-ExtraBold";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__text p{
+    width: 316px;
+    font-family: "Lato-Light";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__box-2 {
+    background-image: url(../storage/img/Middle-21.png);
+    width: 480px;
+    height: 524px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.div__box-3 {
+    background-image: url(../storage/img/Right-21.png);
+    width: 480px;
+    height: 524px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
