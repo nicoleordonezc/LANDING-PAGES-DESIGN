@@ -1,3 +1,22 @@
 :root{
-    
+    --color-1: hsla(0, 0%, 15%, 0.800);
+    --color-2: #252525;
+    --color-3: #FFFFFF;
+    --color-4: hsl(0, 0%, 80%);
+}
+@font-face {
+    font-family: "TimesNewRomanMTStd-Bold";
+    src: url(../storage/font/times-new-roman/TimesNewRomanMTStd-Bold.eot);
+}
+@font-face {
+    font-family: "TimesNewRoman-Regular";
+    src: url(../storage/font/times-new-roman/TimesNewRomanMTStd.eot);
+}
+@font-face {
+    font-family: "TimesNewRomanMTStd-Itali";
+    src: url(../storage/font/times-new-roman/TimesNewRomanMTStd-Italic.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
