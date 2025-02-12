@@ -14,6 +14,10 @@
     src: url(../storage/font/avenir/AvenirLTStd-Roman.otf);
 }
 @font-face {
-    font-family: ;
-    src: url(../storage/);
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/font/poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/poppins/Poppins-Regular.ttf);
 }
