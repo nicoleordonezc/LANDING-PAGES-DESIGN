@@ -9,6 +9,7 @@ main{
     display: flex;
     flex-wrap: nowrap;
     background: linear-gradient(to right bottom, var(--color-5), var(--color-4));
+    background-repeat: no-repeat;
 }
 .header__hero{
     padding-left: 64px;
