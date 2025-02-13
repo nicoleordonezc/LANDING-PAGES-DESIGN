@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
 }
 main{
-    background-image: linear-gradient(to right bottom, var(--color-2), var(--color-3));
+    background: red
 
 }
 .section__plants{
@@ -83,6 +82,8 @@ main{
     justify-content: space-evenly;
     padding-top: 40px;
     padding-bottom: 40px;
+    width: 948px;
+    height: 272px;
 }
 .div__box{
     width: 204px;
