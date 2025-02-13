@@ -4,3 +4,105 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main {
+    background: var(--color-4);
+    background-image: url(../storage/img/big-hamburguer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.article__container {
+    padding-top: 181px;
+    padding-bottom: 64px;
+    padding-left: 100px;
+}
+.div__container {
+    width: 539px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__container h1{
+    font-family: "Montserrat-ExtraBold";
+    font-size: 64px;
+    color: var(--color-1); 
+}
+.div__container strong{
+    color: var(--color-3);
+}
+.div__container p{
+    font-family: "Montserrat-Regular";
+    font-size: 24px;
+    color: var(--color-1); 
+    line-height: 34px;
+}
+.div__container a{
+    font-family: "Montserrat-Medium";
+    font-size:22px;
+    color: var(--color-1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 280px;
+    height: 66px;;
+    background: var(--color-3);
+    border-radius: 40px;
+}
+.div__hamburguers {
+    display: flex;
+    flex-direction: row;
+    width: 539px;
+}
+.div__hamburguers img{
+    width: 104px;
+    height: 104px;
+}
+.div__hamburguers img:nth-child(2){
+    position: relative;
+    right: 25px;
+}
+.div__hamburguers img:nth-child(3){
+    position: relative;
+    right: 58px;
+}
+.div__hamburguers img:nth-child(4){
+    position: relative;
+    right: 91px;
+}
+.div__hamburguers img:nth-child(5){
+    position: relative;
+    right: 124px;
+}
+.div__hamburguers img:nth-child(6){
+    position: relative;
+    right: 157px;
+}
+.div__hamburguers img:nth-child(7){
+    position: relative;
+    right: 190px;
+}
+.section__bottom {
+    padding-top: 96px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.div__bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:linear-gradient(90deg, hsla(0, 0%, 100%, 0.37), hsla(0, 0%, 100%, 0));
+    border-top-left-radius: 100px; 
+    border-bottom-left-radius: 100px;
+    width: 360px;
+    height: 101px;
+    backdrop-filter: blur(5px);
+}
+.div__bottom h2{
+    font-family: "Montserrat-SemiBold";
+    font-size: 24px;
+    color: var(--color-1); 
+    padding-left: 36px;
+}
+
