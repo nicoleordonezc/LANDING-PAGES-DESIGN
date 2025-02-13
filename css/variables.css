@@ -6,3 +6,23 @@
     --color-5: #333333;
     --color-6: hsla(0, 0%, 100%, 0.500);
 }
+@font-face {
+    font-family: "ZillaSlab-SemiBold";
+    src: url(../storage/font/Zilla_Slab/ZillaSlab-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter_24pt-Regular";
+    src: url(../storage/font/Inter/Inter_24pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Medium";
+    src: url(../storage/font/Inter/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-SemiBold";
+    src: url(../storage/font/Inter/Inter_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter_18pt-Light";
+    src: url(../storage/font/Inter/Inter_18pt-Light.ttf);
+}
