@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 1024px;
+
+}
 .header__container{
     margin-left: 64px;
     margin-top: 64px;
@@ -143,4 +150,5 @@
     font-family: "Avenir-Roman";
     font-size: 22px;
     color: var(--color-3);
+ 
 }
