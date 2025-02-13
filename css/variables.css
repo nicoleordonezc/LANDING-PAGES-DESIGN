@@ -24,3 +24,7 @@
     font-family: "Lato-Light";
     src: url(../storage/font/Lato/Lato-Light.ttf);
 }
+@font-face {
+    font-family: "Lato-Black";
+    src: url(../storage/font/Lato/Lato-Black.ttf);
+}
