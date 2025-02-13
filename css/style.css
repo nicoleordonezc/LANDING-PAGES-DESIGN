@@ -4,3 +4,143 @@
     padding: 0;
     box-sizing: border-box;
 }
+.main {
+    background: var(--color-4);
+    padding-left: 56px;
+    padding-bottom: 64px;
+    background-image: url(../storage/img/Hero-Coffee.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 20deg, 800px;
+    
+}
+.header__top {
+    width: 574px;
+    padding-top: 45px;
+}
+.section__top {
+}
+.div__boba {
+    width: 159.27px;
+    height: 248.59px;
+}
+.div__boba img:nth-child(1){
+    /* width: 159.27px;
+    height: 248.59px; */
+}
+.div__boba img:nth-child(2){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+}
+.div__boba img:nth-child(3){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 50px;
+    left: 95px;
+}
+.div__boba img:nth-child(4){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+}
+.div__boba img:nth-child(5){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+}
+.div__boba img:nth-child(6){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 90px;
+    right: 8px;
+}
+.div__boba img:nth-child(7){
+    width: 24.44px;
+    height: 24.73px;
+    position: relative;
+    bottom: 110px;
+    left: 58px;
+}
+.div__text {
+    width: 574px;
+    height: 333px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    bottom: 70px;
+
+}
+.div__text h1{
+    font-family: "Poppins-Bold";
+    font-size: 112px;
+    color: var(--color-3);
+}
+.div__text p{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-3);
+    line-height: 36px;
+    width: 561px;
+}
+.div__text a{
+    font-family: "Poppins-Regular";
+    font-size: 22px;
+    color: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 227px;
+    height: 66px;;
+    background: var(--color-3);
+    border-radius: 40px;
+}
+.section__bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding-top: 206px;
+}
+.div__box {
+    background: linear-gradient(#FFFDFC, hsla(20, 100%, 99%, 0.530));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 29px;
+    width: 426px;
+    height: 195px;
+    border-radius: 100px;
+}
+.div__box img{
+    width: 152px;
+    height: 195px;
+}
+.div__caja{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.div__caja h2{
+    font-family: "Poppins-SemiBold";
+    font-size: 40px;
+    color: var(--color-5);
+    height: 36px;
+}
+.div__caja p{
+    font-family: "Poppins-Regular";
+    font-size: 18px;
+    color: var(--color-5);
+    width: 216px;
+}
+.section__coffee{
+}
