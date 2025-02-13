@@ -4,8 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-main{
-    background: red
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #C8CCCF, #97A3A3);
 
 }
 .section__plants{
