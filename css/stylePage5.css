@@ -1,0 +1,101 @@
+@import url(../css/variablesPage5.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background: var(--color-3);
+}
+.header__top{
+    padding-top: 64px;
+    padding-left: 64px;
+    width: 631px;
+}
+.header__top h1{
+    font-family: "Avenir-Heavy";
+    font-size: 88px;
+    color: var(--color-2);
+    line-height: 104px;
+}
+.section__box{
+    padding-top: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-right: 64px;
+    gap: 56px;
+}
+/****************** box 1 ********************/
+.div__01{
+    width: 400px;
+   
+}
+.div__01 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__01 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
+}
+.div__01 img{
+    width: 400px;
+    height: 345px;
+}
+/**************** box 2 *****************/
+.div__02{
+    width: 400px;
+   
+}
+.div__02 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__02 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
+}
+.div__02 img{
+    width: 400px;
+    height: 345px;
+}
+/**************** box 3 *****************/
+.div__03{
+    width: 400px;
+   
+}
+.div__03 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    color: var(--color-4);
+}
+.div__03 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-bottom: 24px;
+    padding-top: 4px;
+}
+.div__03 img{
+    width: 400px;
+    height: 345px;
+}
