@@ -1,0 +1,98 @@
+@import url(../css/variablesPage10.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background: var(--color-6);
+}
+.section__container{
+    display: flex;
+    flex-direction: row;
+}
+.div__text{
+    padding-top: 169px;
+    padding-left: 132px;
+}
+.div__design h1{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+    color: var(--color-5);
+}
+.div__create h1{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+    color: var(--color-4);
+}
+.div__inspire h1{
+    font-family: "Poppins-Bold";
+    font-size: 72px;
+    color: var(--color-3);
+}
+.div__text p{
+    width: 449px;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.div__text a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+    text-decoration: none;
+    background: var(--color-1);
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+}
+.article__container{
+    padding-left: 53px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    padding-right: 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.div__colum-1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.div__colum-1 img{
+    width: 172px;
+    height: 192px;
+}
+.div__colum-2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.div__colum-2 img{
+    width: 172px;
+    height: 192px;
+}
+.div__colum-3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.div__colum-3 img{
+    width: 172px;
+    height: 192px;
+}
+.div__colum-4{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.div__colum-4 img{
+    width: 172px;
+    height: 192px;
+}
