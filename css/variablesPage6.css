@@ -1,0 +1,26 @@
+:root{
+    --color-1: #333333;
+    --color-2: #111111;
+    --color-3: #FFFFFF;
+    --color-4: #050505;
+    --color-5: #685FD4;
+    --color-6: #000000;
+    --color-7: #020202;
+}
+
+@font-face {
+    font-family: "PlayfairDisplay-Bold";
+    src: url(../storage/font/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/worksans/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/worksans/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../storage/font/times/Typography\ Times\ Regular.ttf);
+}
