@@ -1,0 +1,144 @@
+@import url(../css/variablesPage9.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #C8CCCF, #97A3A3);
+
+}
+.section__plants{
+    display: flex;
+    flex-direction: row;
+}
+.div__plant-1{
+    
+}
+.div__plant-1 img{
+    position: absolute;
+    left: 64px;
+    width: 462px;
+    top: 418px;
+    bottom: 0;
+}
+.div__plant-2{
+
+}
+.div__plant-2 img{
+    position: absolute;
+    left: 838.60px;
+    width: 537.40px;
+    margin-right: 64px;
+}
+.header__container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    padding-left: 295px;
+}
+.header__container h1{
+    font-family: "Poppins-Bold";
+    font-size: 88px;
+    color: var(--color-1);
+    width: 756px;
+}
+.header__container p{
+    width: 659px;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.header__container a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    text-decoration: none;
+    background: var(--color-1);
+    width: 182px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+    
+}
+.section__container{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right bottom, var(--color-4), var(--color-5));
+    border-radius: 144px;
+    position: absolute;
+    left: 428px;
+    top: 591px;
+    width: 948px;
+}
+.div__boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 948px;
+    height: 272px;
+}
+.div__box{
+    width: 204px;
+    height: 192px;
+}
+.div__box h2{
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__box img{
+    width: 38px;
+    height: 4px;
+}
+.div__box p{
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-1);
+}
+/******************* box 2 **********************/
+.div__box-2{
+    width: 204px;
+    height: 192px;
+}
+.div__box-2 h2{
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__box-2 img{
+    width: 38px;
+    height: 4px;
+}
+.div__box-2 p{
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-1);
+}
+/******************* box 3 **********************/
+.div__box-3{
+    width: 204px;
+    height: 192px;
+}
+.div__box-3 h2{
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.div__box-3 img{
+    width: 38px;
+    height: 4px;
+}
+.div__box-3 p{
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-1);
+}
