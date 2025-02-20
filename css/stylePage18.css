@@ -1,0 +1,120 @@
+@import url(../css/variablesPage18.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background: var(--color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section__top{
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+}
+.header__top {
+    width: 695px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top h1{
+    font-family: "Poppins-SemiBold";
+    font-size: 56px;
+    color: var(--color-5); 
+    line-height: 84px;
+}
+.header__top p{
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-4); 
+    text-align: center;
+}
+.header__top a{
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 182px;
+    height: 66px;;
+    background: var(--color-5);
+    border-radius: 36px;
+}
+/****************** middle *********************/
+.section__middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 143px;
+}
+.article__container {
+    width: 1048px;
+    height: 191px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-3);
+    border-radius: 48px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 64px;
+    padding-right: 64px;
+    position: absolute;
+    top: 410px;
+}
+.div__box-1 {
+    width: 176px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div__box-1 h2{
+    font-family: "Avenir-Heavy";
+    font-size: 24px;
+    color: var(--color-5);
+}
+.div__box-1 img{
+    width: 66px;
+    height: 4px;
+}
+.div__box-1 p{
+    font-family: "Avenir-Roman";
+    font-size: 18px;
+    color: var(--color-2);
+    width: 170px;
+  
+}
+.div__middle{
+
+}
+.div__middle img{
+    width: 1312px;
+    height: 526px;
+}
+.section__bottom {
+    width: 1313px;
+    height: 344px;
+    
+}
+.div__bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 61px;
+    padding-top: 40px;
+}
+.div__bottom img{
+    width: 411px;
+}
