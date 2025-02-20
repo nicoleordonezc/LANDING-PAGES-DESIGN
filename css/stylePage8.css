@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 main{
     display: flex;
-    flex-wrap: nowrap;
+    gap: 169px;
     background: linear-gradient(to right bottom, var(--color-5), var(--color-4));
     background-repeat: no-repeat;
+    width: 100%;
 }
 .header__hero{
     padding-left: 64px;
@@ -17,22 +18,20 @@ main{
 }
 .header__hero img{
     width: 656px;
-    height: 861.5px;   
+    height: 861.5px;
 }
 .section__text{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 169px;
-    padding-right: 64px;
+    padding-top: 134px;
+    width: 487px;
+    height: auto;
 }
 .section__text h1{
     font-family: "WorkSans-Bold";
     font-size: 88px;
     color:var(--color-1);
     line-height: 104px;
-    width: 487px;
 }
 .section__text p{
     font-family: "WorkSans-Light";
@@ -41,7 +40,6 @@ main{
     line-height: 32px;
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 487px;
 }
 .section__text a{
     display: flex;

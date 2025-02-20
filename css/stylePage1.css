@@ -6,6 +6,10 @@
 }
 main{
     background: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .header__top{
     display: flex;
@@ -46,9 +50,6 @@ main{
     background: var(--color-2);
     border-radius: 16px;
     margin-bottom: 64px;
-}
-.section__photos{
-    padding-left: 64px;
 }
 .div__top{
     display: flex;
