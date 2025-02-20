@@ -1,0 +1,124 @@
+@import url(../css/variablesPage24.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.section__left {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding-left: 64px;
+    padding-top: 103px;
+    padding-bottom: 64px;
+}
+.article__top {
+    width: 511px;
+    height: 606px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article__top h1{
+    font-family: "ZillaSlab-SemiBold";
+    font-size: 62px;
+    color: var(--color-2); 
+    width: 359px;
+}
+.article__top strong{
+    color: var(--color-3); 
+}
+.article__top img{
+    width: 452px;
+    height: 4px;
+}
+.article__top p{
+    font-family: "Inter_24pt-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+    line-height: 34px;
+    width: 463px;
+}
+.article__top a{
+    font-family: "Inter_18pt-Medium";
+    font-size: 22px;
+    color: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 200px;
+    height: 66px;;
+    background: var(--color-3);
+    border-radius: 40px;
+}
+.article__box {
+    display: flex;
+    flex-direction: row;
+    width: 607px;
+    gap: 20px;
+}
+.div__box {
+    background: var(--color-4);
+    border-radius: 8px;
+    width: 189px;
+    height: 179px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.div__box img{
+    width: 24px;
+    height: 24px;
+}
+.div__box h2{
+    font-family: "Inter_18pt-SemiBold";
+    font-size: 22px;
+    color: var(--color-1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.div__box p{
+    font-family: "Inter_18pt-Light";
+    font-size: 15px;
+    color: var(--color-1);
+    line-height: 20px;
+    width: 93px;
+}
+.section__right {
+    width: 871.48px;
+    height: 983.31px;
+    padding-right: 34px;
+}
+.section__right :nth-child(1){
+    width: 376px;
+    height: 501;
+    position: absolute;
+    right: 30px;
+    padding-right: 34px;
+}
+.section__right :nth-child(2){
+    width: 413px;
+    height: 406px;
+    position: absolute;
+    left: 600px;
+    top: 99px;
+}
+.section__right :nth-child(3){
+    width: 249.33px;
+    height: 260.33px;
+    position: relative;
+    top: 668px;
+    left: 470px;
+}
+.section__right :nth-child(4){
+    width: 565px;
+    height: 960px;
+    position: absolute;
+    right: 191.79px;
+}
